@@ -6,29 +6,58 @@ ul.header {
   border: 1px solid #e7e7e7;
   background-color: #f3f3f3;
 }
-
-li {
+li#headerItem {
   float: left;
 }
-
-li a {
+li a#insiderHeader {
   display: block;
   color: #666;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover:not(.active) {
   background-color: #ddd;
 }
-
 li a.active {
   color: white;
   background-color: #4CAF50;
 }
+div#about {
+  text-align: center;
+  color: #800000
+}
+h1#name {
+  text-align: center;
+  color: #800000
+  padding: 20px;
+  border-width: 9px;
+  border-style: solid;
+  border-color: #000000;
+}
+h2#about {
+  font-family: verdana;
+}
+p#aboutP {
+  font-family: verdana;
+}
+body.body {
+  background-color: #808080
+}
+#introPic {
+  height: 500px;
+  width: 500px;
+}
 
-#infoPic {
-  height: 5%;
-  width: 5%;
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
 }
