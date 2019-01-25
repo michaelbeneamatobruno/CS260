@@ -3,15 +3,16 @@ ul.header {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
+  border: 1px solid #db1529;
+  background-color: #727a87;
+  color: #db1529
 }
 li#headerItem {
   float: left;
 }
 li a#insiderHeader {
   display: block;
-  color: #666;
+  color: #db1529;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -21,7 +22,7 @@ li a:hover:not(.active) {
 }
 li a.active {
   color: white;
-  background-color: #4CAF50;
+  background-color: #f9a107;
 }
 div#about {
   text-align: center;
