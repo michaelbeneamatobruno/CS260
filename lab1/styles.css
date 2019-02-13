@@ -1,0 +1,24 @@
+/* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> */
+
+/* Image Grid */
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: 'Merriweather', serif;
+}
+
+body.indexBody {
+  background-color: #000080
+}
+nav.navbar {
+  background-color: #e3f2fd
+}

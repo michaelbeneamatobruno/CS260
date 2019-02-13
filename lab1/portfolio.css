@@ -1,0 +1,64 @@
+ul.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #db1529;
+  background-color: #727a87;
+  color: #db1529
+}
+li#headerItem {
+  float: left;
+}
+li a#insiderHeader {
+  display: block;
+  color: #db1529;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+li a.active {
+  color: white;
+  background-color: #f9a107;
+}
+div#about {
+  text-align: center;
+  color: #800000
+}
+h1#name {
+  text-align: center;
+  color: #800000
+  padding: 20px;
+  border-width: 9px;
+  border-style: solid;
+  border-color: #000000;
+}
+h2#about {
+  font-family: verdana;
+}
+p#aboutP {
+  font-family: verdana;
+}
+body.body {
+  background-color: #808080
+}
+#introPic {
+  height: 500px;
+  width: 500px;
+}
+
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}
